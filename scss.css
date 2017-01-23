@@ -1,0 +1,113 @@
+/*@media screen and (min-width:1150px){
+  .wrapper2 {
+    flex-flow: row wrap;
+  }
+}*/
+.wrapper {
+  opacity: 0;
+  transition: 1s opacity;
+  height: 97vh;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-flow: row wrap; }
+
+.header, .footer {
+  flex: 1 100%;
+  height: 10%; }
+
+.header {
+  background: linear-gradient(black, darkblue);
+  border-radius: 10px 10px 0 0;
+  box-shadow: -5px -5px 10px gray; }
+
+.footer {
+  background: linear-gradient(darkblue, black);
+  border-radius: 0 0 10px 10px; }
+
+.aside-1, .aside-2 {
+  background: linear-gradient(darkblue, black, darkblue);
+  flex: 1 1 1%;
+  height: 80%; }
+
+.wrapper2 {
+  display: flex;
+  flex: 0 50%;
+  flex-flow: column wrap;
+  border: 4px solid black; }
+
+.image {
+  border: 1px solid;
+  flex: 1 20%;
+  background: url("img/car.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.buttons {
+  border: 1px solid;
+  height: 40px; }
+
+.main {
+  flex: 3 50%;
+  flex-flow: column wrap; }
+
+.flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 50px auto 0 auto;
+  width: 95%;
+  border-radius: 12px;
+  border: 1px solid black;
+  box-shadow: 0 5px 5px blue;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 35vh; }
+
+.flexword {
+  flex: 1 1 50%;
+  font-family: 'Quicksand', sans-serif; }
+
+input[type=submit] {
+  background-color: white;
+  border-radius: 5px;
+  flex: 1 1 51%; }
+
+input[type=text] {
+  color: rgba(0, 0, 0, 0.4);
+  flex: 1 1 20%; }
+
+input[type=button] {
+  background-color: white;
+  border-radius: 5px;
+  flex: 1 1 50%; }
+
+#form {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 1 80%;
+  text-align: center; }
+  #form input {
+    width: 45%;
+    font-family: 'Quicksand', sans-serif; }
+
+table {
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0; }
+  table * {
+    border: 1px solid black;
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif; }
+  table th {
+    background-color: black;
+    color: white; }
+  table tr:hover {
+    background-color: #c0c0c0; }
+  table td {
+    word-break: break-all; }
