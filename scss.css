@@ -111,3 +111,5 @@ table {
     background-color: #c0c0c0; }
   table td {
     word-break: break-all; }
+  table tr.end th {
+    background-color: #29991c; }

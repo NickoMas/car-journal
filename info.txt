@@ -1,0 +1,18 @@
+elector('tbody')
+
+document.querySelector('.buttons').appendChild(document.createElement('button'))
+
+var but = document.querySelector('button')
+
+but.innerHTML = 'Click'
+
+but.onclick = function(e){
+  tbody.classList.toggle('cligga')
+  }
+
+  tbody.onclick = e =>{
+    tbody.classList[0] ? 
+      tbody.contentEditable = 'true' : tbody.contentEditable = 'inherit'
+      }
+
+      первому и последнему рядам contentEditable = 'false'
