@@ -29,3 +29,9 @@ tbody.onclick = e =>{
       }
 
       первому и последнему рядам contentEditable = 'false'
+
+https://github.com/rolling-scopes-school/tasks
+
+https://school.rollingscopes.com/
+
+https://careers.epam.by/training/training-listings
