@@ -1,4 +1,4 @@
-elector('tbody')
+﻿elector('tbody')
 
 document.querySelector('.buttons').appendChild(document.createElement('button'))
 
@@ -7,11 +7,24 @@ var but = document.querySelector('button')
 but.innerHTML = 'Click'
 
 but.onclick = function(e){
-  tbody.classList.toggle('cligga')
-  }
+  
+  this.classList.toggle('red');
+  
+  tbody.classList.toggle('cligga');
 
-  tbody.onclick = e =>{
-    tbody.classList[0] ? 
+}
+
+/* style
+
+button.red {
+  transition: 0.5s background-color;
+  background-color: red;
+}
+
+*/
+
+tbody.onclick = e =>{
+    tbody.classList[0]  && e.target.nodeName == 'TD' ? 
       tbody.contentEditable = 'true' : tbody.contentEditable = 'inherit'
       }
 
